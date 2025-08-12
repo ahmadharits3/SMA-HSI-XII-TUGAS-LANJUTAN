@@ -9,7 +9,7 @@ print("hasil belanjaan :",belanjaan)
 #latiha 2
 
 nilai = [98, 76, 88, 100, 54]
-nilai_urut=sorted() 
+nilai_urut=sorted(nilai) 
 print("nilai asli =",nilai)
 print("nilai terbaru =",nilai_urut)
 
@@ -39,3 +39,8 @@ print("kata_terurut:", kata_kata)
 # print(f"a = {a}")
 # print(f"b = {b}")
 # print(f"c = {c}")
+
+#Penjelasan:
+#b = a → aliasing, b dan a menunjuk ke list yang sama di memori.Mengubah b otomatis mengubah a.
+
+#c = a.copy() → membuat salinan baru di memori.Mengubah c tidak memengaruhi a maupun b.
