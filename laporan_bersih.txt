@@ -1,0 +1,5 @@
+LAPORAN TRANSAKSI BERSIH
+=========================
+ID: ID005 | Produk: Topi | Jumlah: 1 | Total Harga: Rp 125000.0
+--- ANALISIS SELESAI ---
+Total Semua Transaksi: Rp 3125000.0
