@@ -8,11 +8,11 @@ kalimat = kalimat.lower()
 kata_kata = kalimat.split()
 
 # Buat dictionary untuk histogram
-penghitugan = {}
+penghitungan = {}
 
 for kata in kata_kata:
     # Cara aman dan ringkas menggunakan .get()
-    penghitugan[kata] = penghitugan.get(kata, 0) + 1
+    penghitungan[kata] = penghitungan.get(kata, 0) + 1
 
 # Cetak hasil histogram
-print("hasih penghitunang:", penghitugan)
+print("hasih penghitunang:", penghitungan)
